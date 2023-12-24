@@ -6,7 +6,7 @@
   "name": "MRP Supporting Mod",
   "description": "The supporting mod of MineCraft Recording Program",
   "authors": [
-    "Me!"
+    "Jeff"
   ],
   "contact": {
     "homepage": "https://codeforfree.kesug.com",
@@ -14,17 +14,17 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mrp_mod/icon.ico",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.kesug.codeforfree.mrp_mod.MrpMod"
+    ],
+    "Client" : [
+      "com.kesug.codeforfree.mrp_mod.MrpModClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
